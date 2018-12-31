@@ -1,0 +1,40 @@
+body{
+    padding:0;
+    margin:0;
+}
+#popout_holder{
+    position: fixed;
+    min-width: 100%;
+    min-height:100%;
+    top:0;
+    left:0;
+    background:rgba(0,0,0,.4); 
+    z-index: 90;
+}
+#popout{
+    position:fixed;
+    width:80%;
+    min-height:80%;
+    left:10%;
+    top:10%;
+    background:blue;
+    z-index: 100;
+}
+.popout_titlelist_ul{
+    text-decoration:none;
+}
+.popout_titlelist_li{
+    display: block;
+}
+.popout_titlelist_li:hover{
+    cursor: pointer;
+    color:white;
+}
+
+.hide{
+    display: none;
+}
+
+.show{
+    display: block;
+}
